@@ -1,0 +1,35 @@
+body{
+	
+	margin: auto;
+}
+#myTable {
+    margin: 10px;
+}
+td {
+  	border: 1px solid black;
+    padding: 30px;
+}
+label{
+	font-size: 20px;
+
+}
+select{
+	padding: 10px;
+}
+button{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 12px;
+	background-color: red;
+	transition-duration: .4s;
+}
+button:Hover{
+	background-color: white;
+}
+
+.addR{
+	background-color: aqua;
+}
+.addC{
+	background-color: aqua;
+}

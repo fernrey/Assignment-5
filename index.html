@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"  href="style.css">
+	<title>Assignment 5</title>
+</head>
+<body>
+	
+	<button onclick="addRow()" class="addR">Add Row</button>
+	<button onclick="addColumn()" class="addC">add Column</button>
+	<button onclick="removeRow()" class="removeR"> remove row</button>
+	<button onclick="removeColumn()" class="removeC"> remove column</button>
+
+	<label for="Options"> Choose a color: </label>
+	<select id="colors">
+		<option value="none">none</option>
+		<option value="Blue">Blue</option>
+		<option value="Red">Red</option>
+		<option value="black">Black</option>
+		<option value="pink">Pink</option>
+	</select>
+	<label for="Fill"> Choose a Fill</label>
+	<select id="selection">
+		<option value="none">none</option>
+		<option value="fill all"> Fill all</option>
+		<option for value="fill uncolored"> Fill Uncolored Cells</option>
+	</select>
+	<button onclick="fillAll()" class="fillall">Fill All</button>
+	<button onclick="clear()" class="clearAll">clear</button>
+
+	<table id="myTable">
+		<tbody id="myBody">
+		</tbody>
+	</table>
+	<script src="Assignment-5.js"></script>
+
+</body>
+</html>
